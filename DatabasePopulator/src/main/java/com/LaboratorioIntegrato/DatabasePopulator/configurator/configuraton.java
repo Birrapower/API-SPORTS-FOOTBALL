@@ -25,7 +25,7 @@ public class configuraton {
 
         HttpHeaders headers = new HttpHeaders();
         headers.add("x-rapidapi-host","v3.football.api-sports.io");
-        headers.add("x-rapidapi-key","0300e3edab592b023d02b792198506f0");
+        headers.add("x-rapidapi-key","");
 
         return WebClient
                 .builder()
